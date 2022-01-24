@@ -553,11 +553,15 @@ Features-stack
 ========================================================================== */
 .events {
   .leftcol {
-    padding-right: 100px;
+    padding-right: 60px;
     border-right: solid 1px $keyline-color;
   }
+  .centercol {
+    padding-right: 60px;
+  }
   .rightcol {
-    padding-left: 100px;
+    border-left: solid 1px $keyline-color;
+    padding-left: 60px;
   }
 
   .time {
