@@ -415,11 +415,28 @@
         <div class="row">
             <div class="col-md-6 col-md-offset-3">
                 <h3>Can you make it?</h3>
-		<p>RSVP system not quite ready, check back soon!</p>
-                <!--<p>We would greatly appreciate if you could RSVP before 1st of November '17</p>-->
-                <!--<form id="rsvp-form" class="rsvp-form"
+		<!--<p>RSVP system not quite ready, check back soon!</p>-->
+                <p>We would greatly appreciate if you could RSVP before the 1st of May</p>
+                <form id="rsvp-form" class="rsvp-form"
                       action=""
                       method="POST">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6">
+                            <div class="form-input-group">
+                                <i class="fa fa-user"></i><input name="name" class=""
+                                                                 placeholder="Your name"
+                                                                 required>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6">
+                            <div class="form-input-group">
+                                <i class="fa fa-user"></i><select name="attending">
+                                    <option value="yes">I'm There!</option>
+                                    <option value="no">Regrets</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
                     <div class="row">
                         <div class="col-md-6 col-sm-6">
                             <div class="form-input-group">
@@ -430,19 +447,19 @@
                         </div>
                         <div class="col-md-6 col-sm-6">
                             <div class="form-input-group">
-                                <i class="fa fa-user"></i><input name="name" class=""
-                                                                 placeholder="Your name"
-                                                                 required>
+                                <i class="fa fa-users"></i><input type="number" name="guests" class="" min="0"
+                                                                  max="4"
+                                                                  placeholder="Total Number In Your Party"
+                                                                  required>
                             </div>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-md-6 col-sm-6">
                             <div class="form-input-group">
-                                <i class="fa fa-users"></i><input type="number" name="extras" class="" min="0"
-                                                                  max="4"
-                                                                  placeholder="Total Number In Your Party"
-                                                                  required>
+                                <i class="fa fa-user"></i><input name="names" class=""
+                                                                 placeholder="Additional Guest Names"
+                                                                 value="None">
                             </div>
                         </div>
                         <div class="col-md-6 col-sm-6">
@@ -461,7 +478,7 @@
                         Yes,
                         that's me!
                     </button>
-		</form>-->
+		</form>
             </div>
         </div>
     </div>
