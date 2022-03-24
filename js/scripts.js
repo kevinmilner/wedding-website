@@ -188,6 +188,9 @@ $(document).ready(function () {
 
             // Event start date
             start: new Date('June 18, 2022 16:00'),
+            
+            // Event timezone. Will convert the given time to that zone
+            timezone: America/New_York,
 
             // Event duration (IN MINUTES)
             // duration: 120,
