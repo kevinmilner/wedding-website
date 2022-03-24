@@ -417,7 +417,7 @@
                 <h3>Can you make it?</h3>
 		<!--<p>RSVP system not quite ready, check back soon!</p>-->
                 <p>We would greatly appreciate if you could RSVP before the 1st of May</p>
-                <form id="rsvp-form" class="rsvp-form"
+                                <form id="rsvp-form" class="rsvp-form"
                       action=""
                       method="POST">
                     <div class="row">
@@ -430,10 +430,9 @@
                         </div>
                         <div class="col-md-6 col-sm-6">
                             <div class="form-input-group">
-                                <i class="fa fa-user"></i><select name="attending">
-                                    <option value="yes">I'm There!</option>
-                                    <option value="no">Regrets</option>
-                                </select>
+                                <i class="fa fa-check"></i><input name="attending" class=""
+                                                                 placeholder="Yes/No"
+                                                                 required>
                             </div>
                         </div>
                     </div>
@@ -447,27 +446,26 @@
                         </div>
                         <div class="col-md-6 col-sm-6">
                             <div class="form-input-group">
-                                <i class="fa fa-users"></i><input type="number" name="guests" class="" min="0"
-                                                                  max="4"
-                                                                  placeholder="Total Number In Your Party"
-                                                                  required>
+                                <i class="fa fa-key"></i><input type="number" name="invite_code" id="invite_code"
+                                                                class="" min="0"
+                                                                placeholder="Invite code"
+                                                                required>
                             </div>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-md-6 col-sm-6">
                             <div class="form-input-group">
-                                <i class="fa fa-user"></i><input name="names" class=""
-                                                                 placeholder="Additional Guest Names"
-                                                                 value="None">
+                                <i class="fa fa-users"></i><input type="number" name="guests" class="" min="0"
+                                                                  max="4"
+                                                                  placeholder="Total Number In Your Party"
+                                                                  required>
                             </div>
                         </div>
                         <div class="col-md-6 col-sm-6">
                             <div class="form-input-group">
-                                <i class="fa fa-key"></i><input type="number" name="invite_code" id="invite_code"
-                                                                class="" min="0"
-                                                                placeholder="Invite code"
-                                                                required>
+                                <i class="fa fa-users"></i><input name="names" class=""
+                                                                 placeholder="Additional Guest Names">
                             </div>
                         </div>
                     </div>
