@@ -187,17 +187,14 @@ $(document).ready(function () {
             title: "Jordan and Kevin's Wedding",
 
             // Event start date
-            start: new Date('June 18, 2022 16:00'),
-            
-            // Event timezone. Will convert the given time to that zone
-            timezone: America/New_York,
+            start: new Date('2022-06-18T16:00:00-0400'),
 
             // Event duration (IN MINUTES)
             // duration: 120,
 
             // You can also choose to set an end time
             // If an end time is set, this will take precedence over duration
-            end: new Date('June 18, 2022 20:00'),
+            end: new Date('2022-06-18T22:00:00-0400'),
 
             // Event Address
             address: '107 Ridge Rd, Walpole, ME 04573',
