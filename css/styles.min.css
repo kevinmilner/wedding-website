@@ -780,6 +780,9 @@ header .member-actions{
 .pointer-events-auto{
     pointer-events:auto
 }
+.registry{
+    padding-bottom:140px
+}
 .rsvp{
     padding-bottom:140px
 }
